@@ -1,4 +1,4 @@
-module.exports = {
-  publicPath : "chenwei0820.github.io",
-  outputDir : "docs"
-}
+const { defineConfig } = require('@vue/cli-service')
+module.exports = defineConfig({
+  transpileDependencies: true
+})
